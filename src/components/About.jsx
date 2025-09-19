@@ -1,7 +1,7 @@
 import React from 'react';
 import { personalInfo } from '../data/personalInfo';
 import './About.css';
-import Vaibhav from '../assets/Vaibhav.png';
+import Vaibhav from '../assets/vaibhav.png';
 
 const About = () => {
   return (
