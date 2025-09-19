@@ -37,6 +37,7 @@ const Header = () => {
             <li><a href="#skills" onClick={(e) => handleNavClick(e, 'skills')}>Skills</a></li>
             <li><a href="#experience" onClick={(e) => handleNavClick(e, 'experience')}>Experience</a></li>
             <li><a href="#projects" onClick={(e) => handleNavClick(e, 'projects')}>Projects</a></li>
+            <li><a href="#blog" onClick={(e) => handleNavClick(e, 'blog')}>Blog</a></li>
             <li><a href="#personal-photos" onClick={(e) => handleNavClick(e, 'personal-photos')}>Photos</a></li>
             <li><a href="#contact" onClick={(e) => handleNavClick(e, 'contact')}>Contact</a></li>
           </ul>

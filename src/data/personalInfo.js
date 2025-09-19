@@ -29,7 +29,7 @@ export const personalInfo = {
     { name: "React", level: 85 },
     { name: "Python", level: 85 },
     { name: "Cloud Solutions", level: 90 },
-    { name: "E-commerce", level: 85 },
+    { name: "BigCommerce", level: 85 },
     { name: "Telecommunications", level: 90 },
   ],
 
