@@ -8,7 +8,7 @@ export const personalInfo = {
   linkedin: "https://linkedin.com/in/vaibhav-ajmera-8011b524",
   github: "https://github.com/vaibhavajmera",
 
-  about: "Experienced Digital Architect with 20 years of comprehensive IT experience across digital transformation, e-commerce, telecommunications, and cloud solutions. Specialized in designing scalable digital architectures, leading cross-functional teams, and delivering enterprise-grade solutions across multiple domains including telco self-service platforms and IPTV solutions.",
+  about: "A seasoned and accomplished Solution Architect with over 20 years of progressive experience in designing and delivering robust, scalable, and innovative enterprise solutions. Possesses a deep, cross-functional expertise spanning Core Telecommunications, IPTV, and customer-facing digital platforms including e-commerce, mobile applications, and content management systems. Proven ability to bridge business requirements with technical execution, leading diverse teams to successful project outcomes. A strategic thinker with a strong foundation in modern technology stacks, cloud architecture, and a passion for optimizing system performance and user experience.",
 
   personalLife: {
     family: "Happily married and proud father of 2 beautiful daughters",
@@ -21,16 +21,16 @@ export const personalInfo = {
   skills: [
     { name: "AWS", level: 90 },
     { name: "Digital Architecture", level: 95 },
+    { name: "Solution Design", level: 95 },
     { name: "Java", level: 90 },
     { name: "SAP Hybris", level: 85 },
     { name: "Adobe AEM", level: 85 },
     { name: "Spring Framework", level: 88 },
-    { name: "JavaScript", level: 85 },
+    { name: "React", level: 85 },
+    { name: "Python", level: 85 },
     { name: "Cloud Solutions", level: 90 },
     { name: "E-commerce", level: 85 },
     { name: "Telecommunications", level: 90 },
-    { name: "WebLogic", level: 80 },
-    { name: "HTML/CSS", level: 85 }
   ],
 
   experience: [

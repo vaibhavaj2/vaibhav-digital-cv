@@ -46,14 +46,17 @@ const Skills = () => {
   );
 
   const skillCategories = {
-    'Frontend': personalInfo.skills.filter(skill =>
-      ['JavaScript', 'React', 'HTML', 'CSS', 'Vue', 'Angular'].includes(skill.name)
+    'Cloud & Architecture': personalInfo.skills.filter(skill =>
+      ['AWS', 'Digital Architecture', 'Solution Design', 'Cloud Solutions'].includes(skill.name)
     ),
-    'Backend': personalInfo.skills.filter(skill =>
-      ['Node.js', 'Python', 'Java', 'PHP', 'Express'].includes(skill.name)
+    'Programming & Frameworks': personalInfo.skills.filter(skill =>
+      ['Java', 'JavaScript', 'Spring Framework', 'HTML/CSS'].includes(skill.name)
     ),
-    'Database & Tools': personalInfo.skills.filter(skill =>
-      ['SQL', 'MongoDB', 'Git', 'Docker', 'AWS'].includes(skill.name)
+    'Enterprise & E-commerce': personalInfo.skills.filter(skill =>
+      ['SAP Hybris', 'Adobe AEM', 'E-commerce', 'WebLogic'].includes(skill.name)
+    ),
+    'Domain Expertise': personalInfo.skills.filter(skill =>
+      ['Telecommunications'].includes(skill.name)
     )
   };
 
@@ -92,8 +95,20 @@ const Skills = () => {
               </svg>
             </div>
             <div className="summary-text">
-              <h4>Frontend Development</h4>
-              <p>Creating responsive, user-friendly interfaces with modern frameworks</p>
+              <h4>Digital Architecture</h4>
+              <p>Designing scalable digital solutions and enterprise-grade architectures</p>
+            </div>
+          </div>
+
+          <div className="summary-item">
+            <div className="summary-icon">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 3h18v18H3V3zm16 16V5H5v14h14zM7 7h10v2H7V7zm0 4h10v2H7v-2zm0 4h7v2H7v-2z"/>
+              </svg>
+            </div>
+            <div className="summary-text">
+              <h4>Cloud Solutions</h4>
+              <p>AWS certified expert in cloud infrastructure and migration strategies</p>
             </div>
           </div>
 
@@ -104,20 +119,8 @@ const Skills = () => {
               </svg>
             </div>
             <div className="summary-text">
-              <h4>Backend Development</h4>
-              <p>Building scalable server-side applications and RESTful APIs</p>
-            </div>
-          </div>
-
-          <div className="summary-item">
-            <div className="summary-icon">
-              <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M4 7v10c0 2.21 1.79 4 4 4h8c2.21 0 4-1.79 4-4V7c0-2.21-1.79-4-4-4H8c-2.21 0-4 1.79-4 4zm8-2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/>
-              </svg>
-            </div>
-            <div className="summary-text">
-              <h4>DevOps & Tools</h4>
-              <p>Implementing CI/CD pipelines and modern development workflows</p>
+              <h4>Enterprise Solutions</h4>
+              <p>E-commerce platforms, telecommunications, and digital transformation</p>
             </div>
           </div>
         </div>
